@@ -79,7 +79,9 @@
                                      color: #fff;}
                                      
                                      a {    
-                                        text-decoration: none;}
+                                        text-decoration: none;
+                                    margin-right: 8px;}
+                                        
                                         
                                         .button5 {   
                                             font-family:"Open Sans", Helvetica, sans-serif;  
@@ -145,6 +147,14 @@
                                                         border-radius: 4px;    
                                                         background-color: #f00d2a;  
                                                         border: 2px solid #f00d2a;  
-                                                        color: #fff;}    
-                                                        
-                                                      
+                                                        color: #fff;}
+
+                                                        a:hover {
+                                                        opacity: 0.9 ;
+                                                        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.45);
+                                                        transition: opacity 0.15s, box-shadow 0.15s;
+                                                        }
+                                                        p {
+                                                            display: inline-block;
+                                                            margin-right: 33px;
+                                                        }
