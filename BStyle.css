@@ -158,3 +158,29 @@
                                                             display: inline-block;
                                                             margin-right: 33px;
                                                         }
+                                                        .button9 {
+                                                            padding: 6px 24px;
+                                                            border: 2px solid #fff;
+                                                            background: transparent;
+                                                            border-radius: 6px;
+                                                            cursor: pointer;
+                                                          }
+                                                          .button9:active {
+                                                            transform: scale(0.94
+                                                            );
+                                                          }
+                                                          .button9:hover{
+                                                            background-color: #fff;
+                                                            color: #000;
+                                                            transition: backround-color 1s, color 1s;
+                                                          }
+
+                                                            .nav_logo, .nav_link, .button9 {
+                                                                color: #000000;
+                                                            }
+                                                            
+                                                            .button9 {
+                                                                margin: 0;
+                                                                padding: 0;
+                                                                box-sizing: border-box;
+                                                                font-family: "Poppins", sans-serif;}
