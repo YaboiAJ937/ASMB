@@ -184,19 +184,23 @@
                                                                 padding: 0;
                                                                 box-sizing: border-box;
                                                                 font-family: "Poppins", sans-serif;}
-                                                                .button10{            
-                                                                    background-color: rgb(37 211 102,);     
-                                                                    color: white;     
-                                                                    border: none;     
-                                                                    padding-top: 10px;    
-                                                                    padding-bottom: 10px;    
-                                                                    padding-left: 20px;    
-                                                                    padding-right: 20px;    
-                                                                    border-radius: 4px;    
-                                                                    cursor: pointer;    
-                                                                    transition: opacity 0.15s;    
-                                                                    display: inline-block;    
-                                                                    font-family: Arial;}        
+                                                                .button10{  
+                                                                    font-family: "Open Sans", Helvetica, sans-serif;
+                                                                    font-weight: bold;
+                                                                    font-size: 14.5px;
+                                                                    border-radius: 3px;
+                                                                    cursor: pointer;
+                                                                    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+                                                                    display: inline-block;
+                                                                    padding-top: 10px;
+                                                                    padding-bottom: 10px;
+                                                                    padding-left: 20px;
+                                                                    padding-right: 20px;
+                                                                    border-radius: 4px;
+                                                                    background-color: #f00d2a;
+                                                                    border: 2px solid #f00d2a;
+                                                                    color: #fff;          
+                                                                }       
                                                                     
                                                                     .button10:active{       
                                                                         opacity: 0.7;}    
